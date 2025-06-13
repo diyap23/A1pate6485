@@ -1,0 +1,16 @@
+.pate6485PersonalCSS {
+    border : 2px solid blue;
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.pate6485CountryCSS {
+    border : 5px double green;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}

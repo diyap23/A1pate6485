@@ -1,0 +1,17 @@
+<section [ngStyle]="{'display': 'flex'}">
+
+    
+    <figure>
+        <img src="img/img-1.jpg" width="200px"
+             [ngClass]="{ 'pate6485PersonalCSS' : pate6485Pics.pate6485StudentNo === hardCodedStudentNo }"/>
+        <figcaption> {{pate6485Pics.pate6485FullName}} </figcaption>
+    </figure>
+
+    <figure>
+        <img src="img/countryFlag.jpg" width="200px"
+             [ngClass]="{ 'pate6485CountryCSS' : pate6485CountryPics.pate6485CountryID === hardCodedCountryID }"/>
+        <figcaption> {{pate6485CountryPics.pate6485CountryName}} </figcaption>
+    </figure>
+
+
+</section>
